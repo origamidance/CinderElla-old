@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-Cairo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-ImGui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-LibIgl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-NFD" vcs="Git" />
   </component>
 </project>

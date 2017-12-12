@@ -6,15 +6,14 @@ using std::vector;
 #include "cinder/app/RendererGl.h"
 #include "cinder/Path2d.h"
 #include "cinder/cairo/Cairo.h"
-#include "cinder/ip/Fill.h"
 #include "cinder/Rand.h"
-#include "cinder/Utilities.h"
 #include "cinder/gl/gl.h"
-#include "cinder/gl/Texture.h"
-#include "cinder/Log.h"
+#include "CinderImGui.h"
+#include "cinder/Shape2d.h"
 
 using namespace ci;
 using namespace ci::app;
+namespace ui=ImGui;
 
 class Flower {
 public:
@@ -66,16 +65,21 @@ public:
 
     void mouseDown(MouseEvent event);
 
+    void mouseDrag(MouseEvent event);
+
     void keyDown(KeyEvent event);
 
     void renderScene(cairo::Context &ctx);
 
     void draw();
 
+    void drawUI();
+
 public:
     vector<Flower> mFlowers;
     cairo::SurfaceImage srf;
     gl::TextureRef srfRef;
+    Shape2d mShape;
 };
 
 void CairoBasicApp::setup() {
@@ -83,6 +87,9 @@ void CairoBasicApp::setup() {
     cairo::Context ctx(srf);
     renderScene(ctx);
     srfRef = gl::Texture::create(srf.getSurface());
+    ImGui::initialize();
+    mShape.moveTo(vec2(0,0));
+    mShape.lineTo(vec2(1000,1000));
 }
 
 void CairoBasicApp::mouseDown(MouseEvent event) {
@@ -94,13 +101,33 @@ void CairoBasicApp::mouseDown(MouseEvent event) {
     mFlowers.push_back(Flower(event.getPos(), radius, outerRadius, innerRadius, numPetals,
                               ColorA(CM_HSV, randFloat(), 1, 1, 0.65f)));
     cairo::Context ctx(srf);
-//    mFlowers.back().draw(ctx);
+    mFlowers.back().draw(ctx);
 //    ctx.newSubPath();
 //    ctx.newPath();
-    ctx.newSubPath();
-    ctx.circle(mFlowers.back().getLoc(),3);
-    ctx.closePath();
-    ctx.stroke();
+//    ctx.newSubPath();
+//    ctx.circle(mFlowers.back().getLoc(),3);
+//    ctx.closePath();
+//    ctx.stroke();
+//    ctx.closePath();
+    // renderScene( ctx );
+    srfRef = gl::Texture::create(srf.getSurface());
+}
+void CairoBasicApp::mouseDrag(MouseEvent event) {
+    // create a new flower
+    float radius = randFloat(60, 90);
+    int numPetals = randInt(6, 50);
+    float outerRadius = (2 * M_PI * radius) / numPetals / 2 * randFloat(0.9f, 1.0f);
+    float innerRadius = outerRadius * randFloat(0.2f, 0.4f);
+    mFlowers.push_back(Flower(event.getPos(), radius, outerRadius, innerRadius, numPetals,
+                              ColorA(CM_HSV, randFloat(), 1, 1, 0.65f)));
+    cairo::Context ctx(srf);
+    mFlowers.back().draw(ctx);
+//    ctx.newSubPath();
+//    ctx.newPath();
+//    ctx.newSubPath();
+//    ctx.circle(mFlowers.back().getLoc(),3);
+//    ctx.closePath();
+//    ctx.stroke();
 //    ctx.closePath();
     // renderScene( ctx );
     srfRef = gl::Texture::create(srf.getSurface());
@@ -149,16 +176,29 @@ void CairoBasicApp::renderScene(cairo::Context &ctx) {
 void CairoBasicApp::draw() {
     // render the scene straight to the window
     // cairo::Context ctx( cairo::createWindowSurface() );
-    // cairo::SurfaceImage srf = cairo::SurfaceImage( 640, 480, true );
-    // cairo::Context ctx(srf);
-    // renderScene( ctx );
+//     cairo::SurfaceImage srf = cairo::SurfaceImage( 640, 480, true );
+//     cairo::Context ctx(srf);
+//     renderScene( ctx );
     // gl::clear();
     // gl::setMatricesWindowPersp( getWindowSize() );
     // gl::pushModelView();
     // gl::scale(2,2);
     // gl::popModelView();
-    gl::draw(srfRef);
-    // gl::draw(gl::Texture(srf.getSurface()));// create surface
+
+//    gl::draw(srfRef);
+//    gl::draw(gl::Texture::create(srf.getSurface()));// create surface
+    gl::clear();
+    gl::draw(mShape);
+    drawUI();
 }
+
+void CairoBasicApp::drawUI() {
+    {
+        ui::ScopedWindow mainMenu("main menu",ImGuiWindowFlags_AlwaysAutoResize);
+        ui::Text("fps=%f", getAverageFps());
+    }
+}
+
+
 
 CINDER_APP(CairoBasicApp, RendererGl)
