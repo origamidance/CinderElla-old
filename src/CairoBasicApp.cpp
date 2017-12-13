@@ -10,6 +10,7 @@ using std::vector;
 #include "cinder/gl/gl.h"
 #include "CinderImGui.h"
 #include "cinder/Shape2d.h"
+#include "ci_nanovg_gl.hpp"
 
 using namespace ci;
 using namespace ci::app;
@@ -80,6 +81,10 @@ public:
     cairo::SurfaceImage srf;
     gl::TextureRef srfRef;
     Shape2d mShape;
+
+private:
+  std::shared_ptr<nvg::Context> mNanoVG;
+  PolyLine2f mTriangle;
 };
 
 void CairoBasicApp::setup() {
@@ -87,9 +92,11 @@ void CairoBasicApp::setup() {
     cairo::Context ctx(srf);
     renderScene(ctx);
     srfRef = gl::Texture::create(srf.getSurface());
-    ImGui::initialize();
+//    ImGui::initialize();
+  ui::initialize();
     mShape.moveTo(vec2(0,0));
     mShape.lineTo(vec2(1000,1000));
+  mNanoVG = std::make_shared<nvg::Context>(nvg::createContextGL());
 }
 
 void CairoBasicApp::mouseDown(MouseEvent event) {
@@ -184,18 +191,34 @@ void CairoBasicApp::draw() {
     // gl::pushModelView();
     // gl::scale(2,2);
     // gl::popModelView();
+  gl::clear();
 
 //    gl::draw(srfRef);
-//    gl::draw(gl::Texture::create(srf.getSurface()));// create surface
-    gl::clear();
-    gl::draw(mShape);
+    gl::draw(gl::Texture::create(srf.getSurface()));// create surface
+
+    auto &vg = *mNanoVG;
+
+    auto time = getElapsedSeconds();
+    vg.beginFrame(getWindowSize(), getWindowContentScale());
+  {
+    float r = 200.0f;
+    vg.beginPath();
+    vg.arc(0, 0, r, -M_PI * 0.5f, fmod(time, M_PI * 2.0f) - M_PI * 0.5f, NVG_CW);
+    vg.strokeColor(ColorAf{1.0f, 1.0f, 1.0f});
+    vg.strokeWidth(2);
+    vg.stroke();
+  }
+    vg.endFrame();
+  gl::ScopedBlendPremult blend;
     drawUI();
 }
 
 void CairoBasicApp::drawUI() {
     {
+
         ui::ScopedWindow mainMenu("main menu",ImGuiWindowFlags_AlwaysAutoResize);
         ui::Text("fps=%f", getAverageFps());
+        ui::ShowTestWindow();
     }
 }
 

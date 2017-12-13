@@ -10,3 +10,6 @@
 [submodule "blocks/Cinder-NFD"]
 	path = blocks/Cinder-NFD
 	url = https://github.com/origamidance/Cinder-NFD.git
+[submodule "blocks/Cinder-NanoVG"]
+	path = blocks/Cinder-NanoVG
+	url = https://github.com/origamidance/Cinder-NanoVG.git
