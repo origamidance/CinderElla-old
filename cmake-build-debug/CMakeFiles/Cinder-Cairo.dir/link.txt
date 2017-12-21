@@ -1,2 +1,0 @@
-/usr/bin/ar qc libCinder-Cairo.a  CMakeFiles/Cinder-Cairo.dir/blocks/Cinder-Cairo/src/Cairo.cpp.o
-/usr/bin/ranlib libCinder-Cairo.a

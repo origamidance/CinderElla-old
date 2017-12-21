@@ -29,9 +29,6 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -63,39 +60,39 @@ CMAKE_SOURCE_DIR = /home/origamidance/Playground/CinderElla
 CMAKE_BINARY_DIR = /home/origamidance/Playground/CinderElla/cmake-build-release
 
 #=============================================================================
-# Target rules for target CMakeFiles/Cinder-ImGui.dir
+# Target rules for target CMakeFiles/Cinder-NanoVG.dir
 
 # All Build rule for target.
-CMakeFiles/Cinder-ImGui.dir/all:
-	$(MAKE) -f CMakeFiles/Cinder-ImGui.dir/build.make CMakeFiles/Cinder-ImGui.dir/depend
-	$(MAKE) -f CMakeFiles/Cinder-ImGui.dir/build.make CMakeFiles/Cinder-ImGui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/origamidance/Playground/CinderElla/cmake-build-release/CMakeFiles --progress-num=1,2,3,4,5 "Built target Cinder-ImGui"
-.PHONY : CMakeFiles/Cinder-ImGui.dir/all
+CMakeFiles/Cinder-NanoVG.dir/all: CMakeFiles/NanoVGDeps.dir/all
+	$(MAKE) -f CMakeFiles/Cinder-NanoVG.dir/build.make CMakeFiles/Cinder-NanoVG.dir/depend
+	$(MAKE) -f CMakeFiles/Cinder-NanoVG.dir/build.make CMakeFiles/Cinder-NanoVG.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/origamidance/Playground/CinderElla/cmake-build-release/CMakeFiles --progress-num=6,7,8,9 "Built target Cinder-NanoVG"
+.PHONY : CMakeFiles/Cinder-NanoVG.dir/all
 
 # Include target in all.
-all: CMakeFiles/Cinder-ImGui.dir/all
+all: CMakeFiles/Cinder-NanoVG.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Cinder-ImGui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/origamidance/Playground/CinderElla/cmake-build-release/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Cinder-ImGui.dir/all
+CMakeFiles/Cinder-NanoVG.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/origamidance/Playground/CinderElla/cmake-build-release/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Cinder-NanoVG.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/origamidance/Playground/CinderElla/cmake-build-release/CMakeFiles 0
-.PHONY : CMakeFiles/Cinder-ImGui.dir/rule
+.PHONY : CMakeFiles/Cinder-NanoVG.dir/rule
 
 # Convenience name for target.
-Cinder-ImGui: CMakeFiles/Cinder-ImGui.dir/rule
+Cinder-NanoVG: CMakeFiles/Cinder-NanoVG.dir/rule
 
-.PHONY : Cinder-ImGui
-
-# clean rule for target.
-CMakeFiles/Cinder-ImGui.dir/clean:
-	$(MAKE) -f CMakeFiles/Cinder-ImGui.dir/build.make CMakeFiles/Cinder-ImGui.dir/clean
-.PHONY : CMakeFiles/Cinder-ImGui.dir/clean
+.PHONY : Cinder-NanoVG
 
 # clean rule for target.
-clean: CMakeFiles/Cinder-ImGui.dir/clean
+CMakeFiles/Cinder-NanoVG.dir/clean:
+	$(MAKE) -f CMakeFiles/Cinder-NanoVG.dir/build.make CMakeFiles/Cinder-NanoVG.dir/clean
+.PHONY : CMakeFiles/Cinder-NanoVG.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Cinder-NanoVG.dir/clean
 
 .PHONY : clean
 
@@ -137,78 +134,78 @@ clean: CMakeFiles/NanoVGDeps.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Cinder-NanoVG.dir
+# Target rules for target CMakeFiles/Cinder-ImGui.dir
 
 # All Build rule for target.
-CMakeFiles/Cinder-NanoVG.dir/all: CMakeFiles/NanoVGDeps.dir/all
-	$(MAKE) -f CMakeFiles/Cinder-NanoVG.dir/build.make CMakeFiles/Cinder-NanoVG.dir/depend
-	$(MAKE) -f CMakeFiles/Cinder-NanoVG.dir/build.make CMakeFiles/Cinder-NanoVG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/origamidance/Playground/CinderElla/cmake-build-release/CMakeFiles --progress-num=6,7,8,9 "Built target Cinder-NanoVG"
-.PHONY : CMakeFiles/Cinder-NanoVG.dir/all
+CMakeFiles/Cinder-ImGui.dir/all:
+	$(MAKE) -f CMakeFiles/Cinder-ImGui.dir/build.make CMakeFiles/Cinder-ImGui.dir/depend
+	$(MAKE) -f CMakeFiles/Cinder-ImGui.dir/build.make CMakeFiles/Cinder-ImGui.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/origamidance/Playground/CinderElla/cmake-build-release/CMakeFiles --progress-num=1,2,3,4,5 "Built target Cinder-ImGui"
+.PHONY : CMakeFiles/Cinder-ImGui.dir/all
 
 # Include target in all.
-all: CMakeFiles/Cinder-NanoVG.dir/all
+all: CMakeFiles/Cinder-ImGui.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Cinder-NanoVG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/origamidance/Playground/CinderElla/cmake-build-release/CMakeFiles 6
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Cinder-NanoVG.dir/all
+CMakeFiles/Cinder-ImGui.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/origamidance/Playground/CinderElla/cmake-build-release/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Cinder-ImGui.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/origamidance/Playground/CinderElla/cmake-build-release/CMakeFiles 0
-.PHONY : CMakeFiles/Cinder-NanoVG.dir/rule
+.PHONY : CMakeFiles/Cinder-ImGui.dir/rule
 
 # Convenience name for target.
-Cinder-NanoVG: CMakeFiles/Cinder-NanoVG.dir/rule
+Cinder-ImGui: CMakeFiles/Cinder-ImGui.dir/rule
 
-.PHONY : Cinder-NanoVG
-
-# clean rule for target.
-CMakeFiles/Cinder-NanoVG.dir/clean:
-	$(MAKE) -f CMakeFiles/Cinder-NanoVG.dir/build.make CMakeFiles/Cinder-NanoVG.dir/clean
-.PHONY : CMakeFiles/Cinder-NanoVG.dir/clean
+.PHONY : Cinder-ImGui
 
 # clean rule for target.
-clean: CMakeFiles/Cinder-NanoVG.dir/clean
+CMakeFiles/Cinder-ImGui.dir/clean:
+	$(MAKE) -f CMakeFiles/Cinder-ImGui.dir/build.make CMakeFiles/Cinder-ImGui.dir/clean
+.PHONY : CMakeFiles/Cinder-ImGui.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Cinder-ImGui.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/NanoVGApp.dir
+# Target rules for target CMakeFiles/CinderEllaApp.dir
 
 # All Build rule for target.
-CMakeFiles/NanoVGApp.dir/all: CMakeFiles/Cinder-ImGui.dir/all
-CMakeFiles/NanoVGApp.dir/all: CMakeFiles/NanoVGDeps.dir/all
-CMakeFiles/NanoVGApp.dir/all: CMakeFiles/Cinder-NanoVG.dir/all
-	$(MAKE) -f CMakeFiles/NanoVGApp.dir/build.make CMakeFiles/NanoVGApp.dir/depend
-	$(MAKE) -f CMakeFiles/NanoVGApp.dir/build.make CMakeFiles/NanoVGApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/origamidance/Playground/CinderElla/cmake-build-release/CMakeFiles --progress-num=10,11 "Built target NanoVGApp"
-.PHONY : CMakeFiles/NanoVGApp.dir/all
+CMakeFiles/CinderEllaApp.dir/all: CMakeFiles/Cinder-NanoVG.dir/all
+CMakeFiles/CinderEllaApp.dir/all: CMakeFiles/NanoVGDeps.dir/all
+CMakeFiles/CinderEllaApp.dir/all: CMakeFiles/Cinder-ImGui.dir/all
+	$(MAKE) -f CMakeFiles/CinderEllaApp.dir/build.make CMakeFiles/CinderEllaApp.dir/depend
+	$(MAKE) -f CMakeFiles/CinderEllaApp.dir/build.make CMakeFiles/CinderEllaApp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/origamidance/Playground/CinderElla/cmake-build-release/CMakeFiles --progress-num=10,11 "Built target CinderEllaApp"
+.PHONY : CMakeFiles/CinderEllaApp.dir/all
 
 # Include target in all.
-all: CMakeFiles/NanoVGApp.dir/all
+all: CMakeFiles/CinderEllaApp.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/NanoVGApp.dir/rule: cmake_check_build_system
+CMakeFiles/CinderEllaApp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/origamidance/Playground/CinderElla/cmake-build-release/CMakeFiles 13
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/NanoVGApp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CinderEllaApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/origamidance/Playground/CinderElla/cmake-build-release/CMakeFiles 0
-.PHONY : CMakeFiles/NanoVGApp.dir/rule
+.PHONY : CMakeFiles/CinderEllaApp.dir/rule
 
 # Convenience name for target.
-NanoVGApp: CMakeFiles/NanoVGApp.dir/rule
+CinderEllaApp: CMakeFiles/CinderEllaApp.dir/rule
 
-.PHONY : NanoVGApp
-
-# clean rule for target.
-CMakeFiles/NanoVGApp.dir/clean:
-	$(MAKE) -f CMakeFiles/NanoVGApp.dir/build.make CMakeFiles/NanoVGApp.dir/clean
-.PHONY : CMakeFiles/NanoVGApp.dir/clean
+.PHONY : CinderEllaApp
 
 # clean rule for target.
-clean: CMakeFiles/NanoVGApp.dir/clean
+CMakeFiles/CinderEllaApp.dir/clean:
+	$(MAKE) -f CMakeFiles/CinderEllaApp.dir/build.make CMakeFiles/CinderEllaApp.dir/clean
+.PHONY : CMakeFiles/CinderEllaApp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/CinderEllaApp.dir/clean
 
 .PHONY : clean
 

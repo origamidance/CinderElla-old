@@ -17,9 +17,6 @@
 //Build Cinder as a shared library. 
 BUILD_SHARED_LIBS:BOOL=OFF
 
-//Path to a library.
-CAIRO_LIBS:FILEPATH=/usr/lib/libcairo.so
-
 //Copy assets to a folder next to the application. Default is OFF,
 // and a symlink is created that points to the original assets
 // folder.
@@ -159,7 +156,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=NanoVGApp
+CMAKE_PROJECT_NAME:STATIC=CinderEllaApp
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -210,18 +207,6 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Value Computed by CMake
-CairoBasic_BINARY_DIR:STATIC=/home/origamidance/Playground/CinderElla/cmake-build-debug
-
-//Value Computed by CMake
-CairoBasic_SOURCE_DIR:STATIC=/home/origamidance/Playground/CinderElla
-
-//The directory containing a CMake configuration file for Cinder-Cairo.
-Cinder-Cairo_DIR:PATH=/home/origamidance/Playground/CinderElla/blocks/Cinder-Cairo/proj/cmake
-
-//Dependencies for the target
-Cinder-Cairo_LIB_DEPENDS:STATIC=general;/usr/lib/libcairo.so;general;/usr/lib/libpixman-1.so;general;/usr/lib/libpng.so;general;cinder;
-
 //The directory containing a CMake configuration file for Cinder-ImGui.
 Cinder-ImGui_DIR:PATH=/home/origamidance/Playground/CinderElla/blocks/Cinder-ImGui/proj/cmake
 
@@ -235,34 +220,19 @@ Cinder-NanoVG_DIR:PATH=/home/origamidance/Playground/CinderElla/blocks/Cinder-Na
 Cinder-NanoVG_LIB_DEPENDS:STATIC=general;NanoVGDeps;general;cinder;
 
 //Value Computed by CMake
-NanoVGApp_BINARY_DIR:STATIC=/home/origamidance/Playground/CinderElla/cmake-build-debug
+CinderEllaApp_BINARY_DIR:STATIC=/home/origamidance/Playground/CinderElla/cmake-build-debug
 
 //Value Computed by CMake
-NanoVGApp_SOURCE_DIR:STATIC=/home/origamidance/Playground/CinderElla
+CinderEllaApp_SOURCE_DIR:STATIC=/home/origamidance/Playground/CinderElla
 
 //Dependencies for target
 NanoVGDeps_LIB_DEPENDS:STATIC=
-
-//Path to a library.
-PIXMAN_LIBS:FILEPATH=/usr/lib/libpixman-1.so
-
-//Path to a library.
-PNG_LIBS:FILEPATH=/usr/lib/libpng.so
 
 //Path to a program.
 ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/bin/sysctl
-
-//Value Computed by CMake
-Project_BINARY_DIR:STATIC=/home/origamidance/Playground/CinderElla/cmake-build-debug
-
-//Value Computed by CMake
-Project_SOURCE_DIR:STATIC=/home/origamidance/Playground/CinderElla
-
-//The directory containing a CMake configuration file for blocks.
-blocks_DIR:PATH=blocks_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for cinder.
 cinder_DIR:PATH=/home/origamidance/Playground/Cinder/lib/linux/x86_64/ogl/Debug

@@ -23,9 +23,6 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -114,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Cinder-ImGui
+# Target rules for targets named Cinder-NanoVG
 
 # Build rule for target.
-Cinder-ImGui: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Cinder-ImGui
-.PHONY : Cinder-ImGui
+Cinder-NanoVG: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cinder-NanoVG
+.PHONY : Cinder-NanoVG
 
 # fast build rule for target.
-Cinder-ImGui/fast:
-	$(MAKE) -f CMakeFiles/Cinder-ImGui.dir/build.make CMakeFiles/Cinder-ImGui.dir/build
-.PHONY : Cinder-ImGui/fast
+Cinder-NanoVG/fast:
+	$(MAKE) -f CMakeFiles/Cinder-NanoVG.dir/build.make CMakeFiles/Cinder-NanoVG.dir/build
+.PHONY : Cinder-NanoVG/fast
 
 #=============================================================================
 # Target rules for targets named NanoVGDeps
@@ -140,30 +137,30 @@ NanoVGDeps/fast:
 .PHONY : NanoVGDeps/fast
 
 #=============================================================================
-# Target rules for targets named Cinder-NanoVG
+# Target rules for targets named Cinder-ImGui
 
 # Build rule for target.
-Cinder-NanoVG: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Cinder-NanoVG
-.PHONY : Cinder-NanoVG
+Cinder-ImGui: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cinder-ImGui
+.PHONY : Cinder-ImGui
 
 # fast build rule for target.
-Cinder-NanoVG/fast:
-	$(MAKE) -f CMakeFiles/Cinder-NanoVG.dir/build.make CMakeFiles/Cinder-NanoVG.dir/build
-.PHONY : Cinder-NanoVG/fast
+Cinder-ImGui/fast:
+	$(MAKE) -f CMakeFiles/Cinder-ImGui.dir/build.make CMakeFiles/Cinder-ImGui.dir/build
+.PHONY : Cinder-ImGui/fast
 
 #=============================================================================
-# Target rules for targets named NanoVGApp
+# Target rules for targets named CinderEllaApp
 
 # Build rule for target.
-NanoVGApp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 NanoVGApp
-.PHONY : NanoVGApp
+CinderEllaApp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CinderEllaApp
+.PHONY : CinderEllaApp
 
 # fast build rule for target.
-NanoVGApp/fast:
-	$(MAKE) -f CMakeFiles/NanoVGApp.dir/build.make CMakeFiles/NanoVGApp.dir/build
-.PHONY : NanoVGApp/fast
+CinderEllaApp/fast:
+	$(MAKE) -f CMakeFiles/CinderEllaApp.dir/build.make CMakeFiles/CinderEllaApp.dir/build
+.PHONY : CinderEllaApp/fast
 
 blocks/Cinder-ImGui/lib/imgui/imgui.o: blocks/Cinder-ImGui/lib/imgui/imgui.cpp.o
 
@@ -381,32 +378,32 @@ blocks/Cinder-NanoVG/src/ci_nanovg_gl.cpp.s:
 	$(MAKE) -f CMakeFiles/Cinder-NanoVG.dir/build.make CMakeFiles/Cinder-NanoVG.dir/blocks/Cinder-NanoVG/src/ci_nanovg_gl.cpp.s
 .PHONY : blocks/Cinder-NanoVG/src/ci_nanovg_gl.cpp.s
 
-src/NanoVGApp.o: src/NanoVGApp.cpp.o
+src/CinderEllaApp.o: src/CinderEllaApp.cpp.o
 
-.PHONY : src/NanoVGApp.o
+.PHONY : src/CinderEllaApp.o
 
 # target to build an object file
-src/NanoVGApp.cpp.o:
-	$(MAKE) -f CMakeFiles/NanoVGApp.dir/build.make CMakeFiles/NanoVGApp.dir/src/NanoVGApp.cpp.o
-.PHONY : src/NanoVGApp.cpp.o
+src/CinderEllaApp.cpp.o:
+	$(MAKE) -f CMakeFiles/CinderEllaApp.dir/build.make CMakeFiles/CinderEllaApp.dir/src/CinderEllaApp.cpp.o
+.PHONY : src/CinderEllaApp.cpp.o
 
-src/NanoVGApp.i: src/NanoVGApp.cpp.i
+src/CinderEllaApp.i: src/CinderEllaApp.cpp.i
 
-.PHONY : src/NanoVGApp.i
+.PHONY : src/CinderEllaApp.i
 
 # target to preprocess a source file
-src/NanoVGApp.cpp.i:
-	$(MAKE) -f CMakeFiles/NanoVGApp.dir/build.make CMakeFiles/NanoVGApp.dir/src/NanoVGApp.cpp.i
-.PHONY : src/NanoVGApp.cpp.i
+src/CinderEllaApp.cpp.i:
+	$(MAKE) -f CMakeFiles/CinderEllaApp.dir/build.make CMakeFiles/CinderEllaApp.dir/src/CinderEllaApp.cpp.i
+.PHONY : src/CinderEllaApp.cpp.i
 
-src/NanoVGApp.s: src/NanoVGApp.cpp.s
+src/CinderEllaApp.s: src/CinderEllaApp.cpp.s
 
-.PHONY : src/NanoVGApp.s
+.PHONY : src/CinderEllaApp.s
 
 # target to generate assembly for a file
-src/NanoVGApp.cpp.s:
-	$(MAKE) -f CMakeFiles/NanoVGApp.dir/build.make CMakeFiles/NanoVGApp.dir/src/NanoVGApp.cpp.s
-.PHONY : src/NanoVGApp.cpp.s
+src/CinderEllaApp.cpp.s:
+	$(MAKE) -f CMakeFiles/CinderEllaApp.dir/build.make CMakeFiles/CinderEllaApp.dir/src/CinderEllaApp.cpp.s
+.PHONY : src/CinderEllaApp.cpp.s
 
 # Help Target
 help:
@@ -415,11 +412,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Cinder-ImGui"
-	@echo "... NanoVGDeps"
 	@echo "... edit_cache"
 	@echo "... Cinder-NanoVG"
-	@echo "... NanoVGApp"
+	@echo "... NanoVGDeps"
+	@echo "... Cinder-ImGui"
+	@echo "... CinderEllaApp"
 	@echo "... blocks/Cinder-ImGui/lib/imgui/imgui.o"
 	@echo "... blocks/Cinder-ImGui/lib/imgui/imgui.i"
 	@echo "... blocks/Cinder-ImGui/lib/imgui/imgui.s"
@@ -444,9 +441,9 @@ help:
 	@echo "... blocks/Cinder-NanoVG/src/ci_nanovg_gl.o"
 	@echo "... blocks/Cinder-NanoVG/src/ci_nanovg_gl.i"
 	@echo "... blocks/Cinder-NanoVG/src/ci_nanovg_gl.s"
-	@echo "... src/NanoVGApp.o"
-	@echo "... src/NanoVGApp.i"
-	@echo "... src/NanoVGApp.s"
+	@echo "... src/CinderEllaApp.o"
+	@echo "... src/CinderEllaApp.i"
+	@echo "... src/CinderEllaApp.s"
 .PHONY : help
 
 
