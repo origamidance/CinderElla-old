@@ -17,6 +17,13 @@ using namespace ci::app;
 using namespace std;
 namespace ui=ImGui;
 
+void prepareSettings(App::Settings *settings) {
+  settings->setWindowSize(1024, 768);
+  settings->setHighDensityDisplayEnabled();
+  settings->setMultiTouchEnabled(false);
+//  settings->disableFrameRate();
+}
+
 class CinderEllaApp : public App {
 public:
   void setup();
@@ -81,4 +88,4 @@ void CinderEllaApp::drawUI() {
   ui::ShowTestWindow();
 }
 
-CINDER_APP(CinderEllaApp,RendererGl)
+CINDER_APP(CinderEllaApp,RendererGl(RendererGl::Options().msaa(16)),prepareSettings)
