@@ -212,7 +212,6 @@ void HelloWorldApp::drawUI() {
     gl::ScopedBlendPremult blend;
     ui::ScopedWindow mainMenu("main menu", ImGuiWindowFlags_AlwaysAutoResize);
     ui::Text("fps=%f", getAverageFps());
-    ui::Text("哈哈哈");
     ui::ShowTestWindow();
   }
 }

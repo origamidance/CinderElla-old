@@ -11,6 +11,7 @@
 #include "cinder/Rand.h"
 #include "CinderImGui.h"
 #include "CinderNanoVG.h"
+#include "Graph/Graph.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -33,9 +34,24 @@ public:
   void draw();
   void initUI();
   void drawUI();
+private:
+  std::shared_ptr<nvg::Context> mNanoVG;
+  std::shared_ptr<Graph> mGraph;
 };
 void CinderEllaApp::setup() {
   initUI();
+  mNanoVG=std::make_shared<nvg::Context>(nvg::createContextGL());
+  mNanoVG->createFont("roboto",getAssetPath("Roboto-Regular.ttf").string());
+  Eigen::MatrixXf tmpPos(2,2);
+  tmpPos<<100,100,200,200;
+  Eigen::MatrixXi tmpEdge(1,2);
+  tmpEdge<<0,1;
+  Eigen::VectorXf tmpLength(1);
+  tmpLength<<1;
+  CI_LOG_I(tmpPos);
+  CI_LOG_I(tmpEdge);
+  CI_LOG_I("assignment start");
+  mGraph=std::make_shared<Graph>(Graph(tmpPos,tmpEdge,tmpLength));
 }
 void CinderEllaApp::update() {
 }
@@ -46,7 +62,23 @@ void CinderEllaApp::mouseDrag(MouseEvent event) {
   CI_LOG_I("Mouse drag at: "<<event.getPos());
 }
 void CinderEllaApp::draw() {
-  gl::clear();
+  gl::clear(Color(0.8,0.8,0.8));
+//  auto &vg= *mNanoVG;
+  auto vg(mNanoVG);
+  auto time=getElapsedSeconds();
+  vg->beginFrame(getWindowSize(),getWindowContentScale());
+
+//  /// Draw Arc
+//  {
+//    float r = 200.0f;
+//    vg.beginPath();
+//    vg.circle(getWindowCenter().x,getWindowCenter().y,50);
+//    vg.strokeColor(ColorAf{1.0f, 1.0f, 1.0f});
+//    vg.strokeWidth(2);
+//    vg.stroke();
+//  }
+  mGraph->drawGraph(vg);
+  vg->endFrame();
   drawUI();
 }
 void CinderEllaApp::initUI() {

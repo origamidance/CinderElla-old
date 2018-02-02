@@ -1,2 +1,0 @@
-/usr/bin/ar qc libCinder-ImGui.a  CMakeFiles/Cinder-ImGui.dir/blocks/Cinder-ImGui/src/CinderImGui.cpp.o CMakeFiles/Cinder-ImGui.dir/blocks/Cinder-ImGui/lib/imgui/imgui.cpp.o CMakeFiles/Cinder-ImGui.dir/blocks/Cinder-ImGui/lib/imgui/imgui_draw.cpp.o CMakeFiles/Cinder-ImGui.dir/blocks/Cinder-ImGui/lib/imgui/imgui_demo.cpp.o
-/usr/bin/ranlib libCinder-ImGui.a

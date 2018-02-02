@@ -1,2 +1,0 @@
-/usr/bin/ar qc libNanoVGDeps.a  CMakeFiles/NanoVGDeps.dir/blocks/Cinder-NanoVG/deps/nanovg/src/nanovg.c.o
-/usr/bin/ranlib libNanoVGDeps.a
