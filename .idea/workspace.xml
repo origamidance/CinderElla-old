@@ -21,22 +21,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="449f038f-6d5c-4e73-953f-6596443044b7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/blocks/Cinder-ImGui/lib/clipboard_lite" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/Cousine-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/DroidSans.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/Karla-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/ProggyClean.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/ProggyTiny.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/Roboto-Medium.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/consya.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/imgui.ini" afterPath="$PROJECT_DIR$/assets/imgui.ini" />
-      <change beforePath="$PROJECT_DIR$/assets/sourcehan.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/wqy-zenhei.ttc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blocks/Cinder-ImGui/.gitmodules" afterPath="$PROJECT_DIR$/blocks/Cinder-ImGui/.gitmodules" />
-      <change beforePath="$PROJECT_DIR$/blocks/Cinder-ImGui/lib/imgui" afterPath="$PROJECT_DIR$/blocks/Cinder-ImGui/lib/imgui" />
-      <change beforePath="$PROJECT_DIR$/blocks/Cinder-ImGui/proj/cmake/Cinder-ImGuiConfig.cmake" afterPath="$PROJECT_DIR$/blocks/Cinder-ImGui/proj/cmake/Cinder-ImGuiConfig.cmake" />
-      <change beforePath="$PROJECT_DIR$/src/CinderEllaApp.cpp" afterPath="$PROJECT_DIR$/src/CinderEllaApp.cpp" />
     </list>
     <ignored path="cmake-build-debug/" />
     <ignored path="cmake-build-release/" />
@@ -307,7 +292,7 @@
       <workItem from="1517583585378" duration="9698000" />
       <workItem from="1518542574026" duration="726000" />
       <workItem from="1518699586261" duration="456000" />
-      <workItem from="1518700055301" duration="7202000" />
+      <workItem from="1518700055301" duration="7225000" />
     </task>
     <task id="LOCAL-00001" summary="test cairo 2d graphics">
       <created>1513101230285</created>
@@ -344,11 +329,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513961412214</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added clipboard submodule">
+      <created>1518708884964</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1518708884964</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91359000" />
+    <option name="totallyTimeSpent" value="91382000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,7 +413,8 @@
     <MESSAGE value="update nanovg example" />
     <MESSAGE value="cleaning" />
     <MESSAGE value="update app settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="update app settings" />
+    <MESSAGE value="added clipboard submodule" />
+    <option name="LAST_COMMIT_MESSAGE" value="added clipboard submodule" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
