@@ -7,13 +7,13 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="CinderEllaApp" targetName="NanoVGDeps" />
+      <config projectName="CinderEllaApp" targetName="CinderEllaApp" />
       <config projectName="CinderEllaApp" targetName="Cinder-NanoVG" />
       <config projectName="CinderEllaApp" targetName="Cinder-ImGui" />
-      <config projectName="CinderEllaApp" targetName="CinderEllaApp" />
-      <config projectName="CinderEllaApp" targetName="NanoVGDeps" />
     </generated>
   </component>
-  <component name="CMakeSettings" AUTO_RELOAD="true">
+  <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
       <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
@@ -21,113 +21,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="449f038f-6d5c-4e73-953f-6596443044b7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Graph/Graph.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Graph/Graph.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blocks/Cinder-ImGui/lib/clipboard_lite" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/assets/Cousine-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/DroidSans.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Karla-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/ProggyClean.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/ProggyTiny.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Roboto-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/consya.ttf" afterPath="" />
       <change beforePath="$PROJECT_DIR$/assets/imgui.ini" afterPath="$PROJECT_DIR$/assets/imgui.ini" />
-      <change beforePath="$PROJECT_DIR$/blocks/Cinder-ImGui" afterPath="$PROJECT_DIR$/blocks/Cinder-ImGui" />
+      <change beforePath="$PROJECT_DIR$/assets/sourcehan.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/wqy-zenhei.ttc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blocks/Cinder-ImGui/.gitmodules" afterPath="$PROJECT_DIR$/blocks/Cinder-ImGui/.gitmodules" />
       <change beforePath="$PROJECT_DIR$/blocks/Cinder-ImGui/lib/imgui" afterPath="$PROJECT_DIR$/blocks/Cinder-ImGui/lib/imgui" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeCCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeCXXCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeSystem.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-ImGui.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-ImGui.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-ImGui.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-ImGui.dir/cmake_clean_target.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-ImGui.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-ImGui.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-ImGui.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-ImGui.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-NanoVG.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-NanoVG.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-NanoVG.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-NanoVG.dir/cmake_clean_target.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-NanoVG.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-NanoVG.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-NanoVG.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cinder-NanoVG.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NanoVGDeps.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NanoVGDeps.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NanoVGDeps.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NanoVGDeps.dir/cmake_clean_target.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NanoVGDeps.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NanoVGDeps.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NanoVGDeps.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NanoVGDeps.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.9.4/CMakeCCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.9.4/CMakeCXXCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.9.4/CMakeSystem.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.9.4/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.9.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeOutput.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-ImGui.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-ImGui.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-ImGui.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-ImGui.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-ImGui.dir/cmake_clean_target.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-ImGui.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-ImGui.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-ImGui.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-ImGui.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-ImGui.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-NanoVG.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-NanoVG.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-NanoVG.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-NanoVG.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-NanoVG.dir/cmake_clean_target.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-NanoVG.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-NanoVG.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-NanoVG.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-NanoVG.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Cinder-NanoVG.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/NanoVGDeps.dir/C.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/NanoVGDeps.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/NanoVGDeps.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/NanoVGDeps.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/NanoVGDeps.dir/cmake_clean_target.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/NanoVGDeps.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/NanoVGDeps.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/NanoVGDeps.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/NanoVGDeps.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/NanoVGDeps.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-log.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/cmake.check_cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/feature_tests.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/feature_tests.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/feature_tests.cxx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/progress.marks" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/cmake_install.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blocks/Cinder-ImGui/proj/cmake/Cinder-ImGuiConfig.cmake" afterPath="$PROJECT_DIR$/blocks/Cinder-ImGui/proj/cmake/Cinder-ImGuiConfig.cmake" />
       <change beforePath="$PROJECT_DIR$/src/CinderEllaApp.cpp" afterPath="$PROJECT_DIR$/src/CinderEllaApp.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/NanoVGApp.cpp" afterPath="$PROJECT_DIR$/src/NanoVGApp.cpp" />
     </list>
     <ignored path="cmake-build-debug/" />
     <ignored path="cmake-build-release/" />
@@ -144,14 +53,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.458691">
       <split-first>
         <leaf>
           <file leaf-file-name="CinderEllaApp.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/CinderEllaApp.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="46" column="17" lean-forward="false" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+                <state relative-caret-position="182">
+                  <caret line="94" column="30" lean-forward="false" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
                   <folding>
                     <element signature="e#47#74#0" expanded="true" />
                   </folding>
@@ -163,11 +72,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Graph.h" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Graph/Graph.h">
+          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/lib/clipboard_lite/CMakeLists.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-134">
-                  <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+                <state relative-caret-position="-198">
+                  <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -179,7 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>comment</find>
       <find>tab</find>
       <find>test</find>
       <find>scopedwindow</find>
@@ -200,14 +108,16 @@
       <find>asset</find>
       <find>droid</find>
       <find>droidhhh</find>
-      <find>font</find>
       <find>getgly</find>
       <find>getGly</find>
       <find>chinese</find>
       <find>chinesejj</find>
-      <find>clipboard</find>
       <find>nanovg</find>
       <find>nvg</find>
+      <find>source</find>
+      <find>font</find>
+      <find>clipboard</find>
+      <find>setclipboardtext</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -225,12 +135,13 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/include/CinderEllaApp.h" />
         <option value="$PROJECT_DIR$/blocks/Cinder-NanoVG/include/CinderNanoVG.h" />
-        <option value="$PROJECT_DIR$/blocks/Cinder-ImGui/src/CinderImGui.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/NanoVGApp.cpp" />
         <option value="$PROJECT_DIR$/src/Graph/Graph.cpp" />
-        <option value="$PROJECT_DIR$/src/CinderEllaApp.cpp" />
         <option value="$PROJECT_DIR$/src/Graph/Graph.h" />
+        <option value="$PROJECT_DIR$/src/CinderEllaApp.cpp" />
+        <option value="$PROJECT_DIR$/blocks/Cinder-ImGui/src/CinderImGui.cpp" />
+        <option value="$PROJECT_DIR$/blocks/Cinder-ImGui/proj/cmake/Cinder-ImGuiConfig.cmake" />
       </list>
     </option>
   </component>
@@ -273,13 +184,48 @@
             <path>
               <item name="CinderEllaApp" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="CinderElla" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CinderEllaApp" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="CinderElla" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="Cinder-ImGui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CinderEllaApp" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="CinderElla" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="Cinder-ImGui" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CinderEllaApp" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="CinderElla" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="Cinder-ImGui" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="clipboard_lite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CinderEllaApp" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="CinderElla" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="Cinder-ImGui" type="462c0819:PsiDirectoryNode" />
+              <item name="proj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CinderEllaApp" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="CinderElla" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="Cinder-ImGui" type="462c0819:PsiDirectoryNode" />
+              <item name="proj" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CinderEllaApp" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="CinderElla" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -288,7 +234,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-release" />
     <property name="SearchEverywhereHistoryKey" value="renderstroke&#9;null&#9;null" />
@@ -358,7 +304,10 @@
       <workItem from="1517578264821" duration="195000" />
       <workItem from="1517578472367" duration="3183000" />
       <workItem from="1517582048126" duration="439000" />
-      <workItem from="1517583585378" duration="8977000" />
+      <workItem from="1517583585378" duration="9698000" />
+      <workItem from="1518542574026" duration="726000" />
+      <workItem from="1518699586261" duration="456000" />
+      <workItem from="1518700055301" duration="7202000" />
     </task>
     <task id="LOCAL-00001" summary="test cairo 2d graphics">
       <created>1513101230285</created>
@@ -399,7 +348,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82254000" />
+    <option name="totallyTimeSpent" value="91359000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -413,16 +362,17 @@
   <component name="ToolWindowManager">
     <frame x="1" y="365" width="1918" height="1175" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26068377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288201" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913843" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875368" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15987125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -430,7 +380,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -483,9 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23254">
           <caret line="1057" column="3" lean-forward="false" selection-start-line="1057" selection-start-column="3" selection-end-line="1057" selection-end-column="3" />
-          <folding>
-            <element signature="e#1687#1714#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -500,26 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23254">
           <caret line="1057" column="3" lean-forward="false" selection-start-line="1057" selection-start-column="3" selection-end-line="1057" selection-end-column="3" />
-          <folding>
-            <element signature="e#1687#1714#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CinderEllaApp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/src/CinderImGui.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23254">
-          <caret line="1057" column="3" lean-forward="false" selection-start-line="1057" selection-start-column="3" selection-end-line="1057" selection-end-column="3" />
-          <folding>
-            <element signature="e#1687#1714#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,9 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23254">
           <caret line="1057" column="3" lean-forward="false" selection-start-line="1057" selection-start-column="3" selection-end-line="1057" selection-end-column="3" />
-          <folding>
-            <element signature="e#1687#1714#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,9 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12738">
           <caret line="579" column="99" lean-forward="false" selection-start-line="579" selection-start-column="99" selection-end-line="579" selection-end-column="99" />
-          <folding>
-            <element signature="e#1687#1714#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,16 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/src/CinderImGui.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="1057" column="3" lean-forward="false" selection-start-line="1057" selection-start-column="3" selection-end-line="1057" selection-end-column="3" />
-          <folding>
-            <element signature="e#1687#1714#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -798,7 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,9 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,17 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CinderEllaApp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="46" column="17" lean-forward="false" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-          <folding>
-            <element signature="e#47#74#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -834,15 +729,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph/Graph.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="517">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/src/CinderImGui.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2882">
+          <caret line="1079" column="0" lean-forward="false" selection-start-line="1079" selection-start-column="0" selection-end-line="1079" selection-end-column="0" />
+          <folding>
+            <element signature="e#33714#34249#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/lib/clipboard_lite/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/proj/cmake/Cinder-ImGuiConfig.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CinderEllaApp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="94" column="30" lean-forward="false" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+          <folding>
+            <element signature="e#47#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

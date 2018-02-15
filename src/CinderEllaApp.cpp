@@ -93,28 +93,26 @@ void CinderEllaApp::initUI() {
   ChineseGlyphRanges.push_back(0);
   ui::initialize( ui::Options()
                       .fonts( {
-                                  { getAssetPath( "sourcehan.otf" ), 15 }
-                              } ).fontGlyphRanges( "sourcehan",ChineseGlyphRanges
+                                  { getAssetPath( "NotoSansCJKsc-Regular.otf" ), 15 },
+                                  { getAssetPath( "NotoSans-Regular.ttc" ), 15 }
+                              } ).fontGlyphRanges( "NotoSansCJKsc-Regular",ChineseGlyphRanges
                   )
   );
-  const ImWchar *test=ui::GetIO().Fonts->GetGlyphRangesChinese();
-  CI_LOG_I("range="<<ui::GetIO().Fonts->GetGlyphRangesChinese());
+//  const ImWchar *test=ui::GetIO().Fonts->GetGlyphRangesChinese();
+//  CI_LOG_I("range="<<ui::GetIO().Fonts->GetGlyphRangesChinese());
+
+//  ui::initialize( ui::Options().font(getAssetPath( "NotoSans-Regular.ttc" ), 15 ));
 //  ImFont* font=ui::GetIO().Fonts->AddFontFromFileTTF("/home/origamidance/Playground/CinderElla/assets/DroidSans.ttf",30.0f);
 //  IM_ASSERT(font!=NULL);
 }
 void CinderEllaApp::drawUI() {
-  ui::ScopedFont font("DroidSans");
   gl::ScopedBlendPremult blend;
   ui::ScopedWindow mainMenu("main menu", ImGuiWindowFlags_AlwaysAutoResize);
   {
-    ui::ScopedFont font("Roboto-Regular");
     ui::Text("fps=%f", getAverageFps());
-
   }
   {
-    ui::ScopedFont font1("DroidSans");
     ui::Text("fps=%f", getAverageFps());
-
   }
   ui::Text(u8"哈哈哈");
   ui::ShowTestWindow();
