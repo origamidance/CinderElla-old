@@ -21,7 +21,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="449f038f-6d5c-4e73-953f-6596443044b7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/assets/imgui.ini" afterPath="$PROJECT_DIR$/assets/imgui.ini" />
+      <change beforePath="$PROJECT_DIR$/blocks/Cinder-ImGui/src/CinderImGui.cpp" afterPath="$PROJECT_DIR$/blocks/Cinder-ImGui/src/CinderImGui.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/CinderEllaApp.cpp" afterPath="$PROJECT_DIR$/src/CinderEllaApp.cpp" />
     </list>
     <ignored path="cmake-build-debug/" />
     <ignored path="cmake-build-release/" />
@@ -38,46 +42,23 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.458691">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="CinderEllaApp.cpp" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/CinderEllaApp.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="182">
-                  <caret line="94" column="30" lean-forward="false" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
-                  <folding>
-                    <element signature="e#47#74#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/lib/clipboard_lite/CMakeLists.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-198">
-                  <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="CinderEllaApp.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CinderEllaApp.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+              <folding>
+                <element signature="e#47#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tab</find>
-      <find>test</find>
-      <find>scopedwindow</find>
-      <find>text</find>
-      <find>textjjjjjjjjjjjjjj</find>
       <find>blend</find>
       <find>stroke</find>
       <find>renderstroke</find>
@@ -101,8 +82,13 @@
       <find>nvg</find>
       <find>source</find>
       <find>font</find>
-      <find>clipboard</find>
       <find>setclipboardtext</find>
+      <find>imguikey_v</find>
+      <find>clipboard,r</find>
+      <find>setclipboardtextfn</find>
+      <find>glfwsetclipboardstring</find>
+      <find>clipboard</find>
+      <find>glfwwindow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,9 +110,10 @@
         <option value="$PROJECT_DIR$/src/NanoVGApp.cpp" />
         <option value="$PROJECT_DIR$/src/Graph/Graph.cpp" />
         <option value="$PROJECT_DIR$/src/Graph/Graph.h" />
-        <option value="$PROJECT_DIR$/src/CinderEllaApp.cpp" />
-        <option value="$PROJECT_DIR$/blocks/Cinder-ImGui/src/CinderImGui.cpp" />
         <option value="$PROJECT_DIR$/blocks/Cinder-ImGui/proj/cmake/Cinder-ImGuiConfig.cmake" />
+        <option value="$PROJECT_DIR$/blocks/Cinder-ImGui/src/CinderImGui.cpp" />
+        <option value="$PROJECT_DIR$/../Cinder/src/cinder/Clipboard.cpp" />
+        <option value="$PROJECT_DIR$/src/CinderEllaApp.cpp" />
       </list>
     </option>
   </component>
@@ -219,7 +206,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-release" />
     <property name="SearchEverywhereHistoryKey" value="renderstroke&#9;null&#9;null" />
@@ -292,7 +279,7 @@
       <workItem from="1517583585378" duration="9698000" />
       <workItem from="1518542574026" duration="726000" />
       <workItem from="1518699586261" duration="456000" />
-      <workItem from="1518700055301" duration="7228000" />
+      <workItem from="1518700055301" duration="16215000" />
     </task>
     <task id="LOCAL-00001" summary="test cairo 2d graphics">
       <created>1513101230285</created>
@@ -343,11 +330,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518708888385</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added clipboard submodule">
+      <created>1518708892083</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1518708892083</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91385000" />
+    <option name="totallyTimeSpent" value="100372000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,15 +354,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="365" width="1918" height="1175" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288201" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875368" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875368" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15987125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15987125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -428,55 +423,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/src/CinderImGui.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23254">
-          <caret line="1057" column="3" lean-forward="false" selection-start-line="1057" selection-start-column="3" selection-end-line="1057" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CinderEllaApp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/src/CinderImGui.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23254">
-          <caret line="1057" column="3" lean-forward="false" selection-start-line="1057" selection-start-column="3" selection-end-line="1057" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CinderEllaApp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/src/CinderImGui.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23254">
-          <caret line="1057" column="3" lean-forward="false" selection-start-line="1057" selection-start-column="3" selection-end-line="1057" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CinderEllaApp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="57" column="63" lean-forward="false" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/src/CinderImGui.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12738">
-          <caret line="579" column="99" lean-forward="false" selection-start-line="579" selection-start-column="99" selection-end-line="579" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CairoBasicApp.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4554">
@@ -683,13 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/lib/imgui/imgui.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="338" column="28" lean-forward="false" selection-start-line="338" selection-start-column="28" selection-end-line="338" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -740,24 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/src/CinderImGui.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2882">
-          <caret line="1079" column="0" lean-forward="false" selection-start-line="1079" selection-start-column="0" selection-end-line="1079" selection-end-column="0" />
-          <folding>
-            <element signature="e#33714#34249#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/lib/clipboard_lite/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/proj/cmake/Cinder-ImGuiConfig.cmake">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -766,10 +687,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/lib/clipboard_lite/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/lib/imgui/imgui_demo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="933" column="51" lean-forward="false" selection-start-line="933" selection-start-column="47" selection-end-line="933" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/lib/imgui/imgui.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="909" column="0" lean-forward="false" selection-start-line="909" selection-start-column="0" selection-end-line="909" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/Cinder-LibIgl/lib/libigl/external/nanogui/ext/glfw/tests/clipboard.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/lib/imgui/examples/opengl3_example/imgui_impl_glfw_gl3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="338" column="17" lean-forward="false" selection-start-line="338" selection-start-column="17" selection-end-line="338" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Cinder/include/glfw/glfw3.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="63" column="1" lean-forward="false" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/GLFW/glfw3.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/Cinder-ImGui/src/CinderImGui.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="1075" column="4" lean-forward="false" selection-start-line="1075" selection-start-column="4" selection-end-line="1075" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Cinder/include/cinder/Clipboard.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Cinder/src/cinder/Clipboard.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="197" column="93" lean-forward="false" selection-start-line="197" selection-start-column="93" selection-end-line="197" selection-end-column="93" />
+          <folding>
+            <element signature="e#1405#1434#0" expanded="false" />
+            <element signature="e#1514#1637#0" expanded="false" />
+            <element signature="e#1676#1790#0" expanded="false" />
+            <element signature="e#1820#2159#0" expanded="false" />
+            <element signature="e#2192#2219#0" expanded="false" />
+            <element signature="e#2336#2701#0" expanded="false" />
+            <element signature="e#2768#3028#0" expanded="false" />
+            <element signature="e#3066#3200#0" expanded="false" />
+            <element signature="e#3231#3410#0" expanded="false" />
+            <element signature="e#3477#3736#0" expanded="false" />
+            <element signature="e#3774#3907#0" expanded="false" />
+            <element signature="e#3939#4114#0" expanded="false" />
+            <element signature="e#4190#4723#0" expanded="false" />
+            <element signature="e#4761#4939#0" expanded="false" />
+            <element signature="e#4969#5342#0" expanded="false" />
+            <element signature="e#5565#5834#0" expanded="false" />
+            <element signature="e#5872#6075#0" expanded="false" />
+            <element signature="e#6105#6676#0" expanded="false" />
+            <element signature="e#7030#7156#0" expanded="false" />
+            <element signature="e#7186#7696#0" expanded="false" />
+            <element signature="e#7933#8519#0" expanded="false" />
+            <element signature="e#8557#8740#0" expanded="false" />
+            <element signature="e#8770#10588#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CinderEllaApp.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="94" column="30" lean-forward="false" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+        <state relative-caret-position="798">
+          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
           <folding>
             <element signature="e#47#74#0" expanded="true" />
           </folding>

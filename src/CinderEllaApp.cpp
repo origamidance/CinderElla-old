@@ -12,6 +12,8 @@
 #include "CinderImGui.h"
 #include "CinderNanoVG.h"
 #include "Graph/Graph.h"
+#include "glfw/glfw3.h"
+
 
 using namespace ci;
 using namespace ci::app;
