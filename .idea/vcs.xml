@@ -4,8 +4,24 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blocks/Cinder-Cairo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blocks/Cinder-ImGui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-ImGui/lib/imgui" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blocks/Cinder-LibIgl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-LibIgl/lib/libigl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-LibIgl/lib/libigl/external/CoMISo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-LibIgl/lib/libigl/external/cork" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-LibIgl/lib/libigl/external/embree" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-LibIgl/lib/libigl/external/nanogui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-LibIgl/lib/libigl/external/nanogui/ext/eigen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-LibIgl/lib/libigl/external/nanogui/ext/glfw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-LibIgl/lib/libigl/external/nanogui/ext/nanovg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-LibIgl/lib/libigl/external/nanogui/ext/pybind11" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-LibIgl/lib/libigl/external/nanogui/ext/pybind11/tools/clang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-LibIgl/lib/libigl/external/tetgen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-LibIgl/lib/libigl/external/tinyxml2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-LibIgl/lib/libigl/external/triangle" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blocks/Cinder-NFD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-NFD/src/nativefiledialog" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/blocks/Cinder-NanoVG" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blocks/Cinder-NanoVG/deps/nanovg" vcs="Git" />
   </component>
 </project>

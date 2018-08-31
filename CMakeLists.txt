@@ -1,7 +1,6 @@
 cmake_minimum_required( VERSION 2.8 FATAL_ERROR )
 set( CMAKE_VERBOSE_MAKEFILE ON )
-
-
+set(CMAKE_PREFIX_PATH C:/Users/v-razh/Playground/Cinder/lib/msw/x64/Release)
 get_filename_component( CINDER_PATH "${CMAKE_CURRENT_LIST_DIR}/../Cinder" ABSOLUTE )
 get_filename_component( SOURCES_PATH "${CMAKE_CURRENT_LIST_DIR}/src" ABSOLUTE )
 get_filename_component( BLOCKS_PATH "${CMAKE_CURRENT_LIST_DIR}/blocks" ABSOLUTE )

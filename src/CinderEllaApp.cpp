@@ -50,41 +50,45 @@ void CinderEllaApp::draw() {
   drawUI();
 }
 void CinderEllaApp::initUI() {
-//  ui::initialize();
-//  ui::initialize(ui::Options().font( getAssetPath( "consya.ttf" ), 20).fontGlyphRanges("consya",ui::GetIO().Fonts->GetGlyphRangesJapanese()));
+  ui::initialize();
+  //ui::initialize(ui::Options().font( getAssetPath( "consya.ttf" ), 20).fontGlyphRanges("consya",ui::GetIO().Fonts->GetGlyphRangesJapanese()));
 
-  vector<ImWchar> ChineseGlyphRanges;
-    for (const ImWchar *range = ui::GetIO().Fonts->GetGlyphRangesChinese(); range[0] && range[1]; range += 2) {
-      ChineseGlyphRanges.push_back(range[0]);
-      ChineseGlyphRanges.push_back(range[1]);
-    }
-  ChineseGlyphRanges.push_back(0);
-  ui::initialize( ui::Options()
-                      .fonts( {
-                                  { getAssetPath( "sourcehan.otf" ), 15 }
-                              } ).fontGlyphRanges( "sourcehan",ChineseGlyphRanges
-                  )
-  );
-  const ImWchar *test=ui::GetIO().Fonts->GetGlyphRangesChinese();
-  CI_LOG_I("range="<<ui::GetIO().Fonts->GetGlyphRangesChinese());
+  // vector<ImWchar> ChineseGlyphRanges;
+  //   for (const ImWchar *range = ui::GetIO().Fonts->GetGlyphRangesChinese(); range[0] && range[1]; range += 2) {
+  //     ChineseGlyphRanges.push_back(range[0]);
+  //     ChineseGlyphRanges.push_back(range[1]);
+  //   }
+  // ChineseGlyphRanges.push_back(0);
+  // ui::initialize( ui::Options()
+  //                     .fonts( {
+  //                                 { getAssetPath( "sourcehan.otf" ), 15 }
+  //                             } ).fontGlyphRanges( "sourcehan",ChineseGlyphRanges
+  //                 )
+  // );
+  // const ImWchar *test=ui::GetIO().Fonts->GetGlyphRangesChinese();
+  // CI_LOG_I("range="<<ui::GetIO().Fonts->GetGlyphRangesChinese());
 //  ImFont* font=ui::GetIO().Fonts->AddFontFromFileTTF("/home/origamidance/Playground/CinderElla/assets/DroidSans.ttf",30.0f);
 //  IM_ASSERT(font!=NULL);
 }
 void CinderEllaApp::drawUI() {
-  ui::ScopedFont font("DroidSans");
+  //ui::ScopedFont font("DroidSans");
   gl::ScopedBlendPremult blend;
   ui::ScopedWindow mainMenu("main menu", ImGuiWindowFlags_AlwaysAutoResize);
-  {
-    ui::ScopedFont font("Roboto-Regular");
-    ui::Text("fps=%f", getAverageFps());
+  ui::ShowTestWindow();
+  //{
+  //  ui::ScopedFont font("Roboto-Regular");
+  //  ui::Text("fps=%f", getAverageFps());
 
-  }
-  {
-    ui::ScopedFont font1("DroidSans");
-    ui::Text("fps=%f", getAverageFps());
+  //}
+  //{
+  //  ui::ScopedFont font1("DroidSans");
+  //  ui::Text("fps=%f", getAverageFps());
 
-  }
-  ui::Text(u8"哈哈哈");
+  //}
+  //ui::Text(u8"哈哈哈");
+//  ui::Text(std::to_string(getAverageFps()).c_str());
+  float test=0.1;
+  ui::DragFloat("hah",&test);
   ui::ShowTestWindow();
 }
 
