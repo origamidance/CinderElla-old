@@ -38,3 +38,7 @@ build/*
 /cmake-build-release/
 /cmake-build-debug/*
 /cmake-build-release/*
+.idea/
+.idea/*
+.vscode/
+.vscode/*
