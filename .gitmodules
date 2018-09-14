@@ -7,3 +7,9 @@
 [submodule "blocks/Cinder-NanoVG"]
 	path = blocks/Cinder-NanoVG
 	url = https://github.com/origamidance/Cinder-NanoVG.git
+[submodule "Cinder"]
+	path = Cinder
+	url = https://github.com/cinder/Cinder.git
+[submodule "external/Eigen"]
+	path = external/Eigen
+	url = https://github.com/eigenteam/eigen-git-mirror.git
