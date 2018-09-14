@@ -87,9 +87,9 @@ void CinderEllaApp::drawUI() {
   //}
   //ui::Text(u8"哈哈哈");
 //  ui::Text(std::to_string(getAverageFps()).c_str());
-  float test=0.1;
-  ui::DragFloat("hah",&test);
-  ui::ShowTestWindow();
+  // float test=0.1;
+  // ui::DragFloat("hah",&test);
+  // ui::ShowTestWindow();
 }
 
 CINDER_APP(CinderEllaApp,RendererGl(RendererGl::Options().msaa(16)),prepareSettings)

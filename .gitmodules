@@ -1,15 +1,9 @@
-[submodule "blocks/Cinder-Cairo"]
-	path = blocks/Cinder-Cairo
-	url = https://github.com/origamidance/Cinder-Cairo.git
 [submodule "blocks/Cinder-ImGui"]
 	path = blocks/Cinder-ImGui
-	url = https://github.com/origamidance/Cinder-ImGui.git
+	url = https://github.com/simongeilfus/Cinder-ImGui.git
 [submodule "blocks/Cinder-LibIgl"]
 	path = blocks/Cinder-LibIgl
 	url = https://github.com/origamidance/Cinder-LibIgl.git
-[submodule "blocks/Cinder-NFD"]
-	path = blocks/Cinder-NFD
-	url = https://github.com/origamidance/Cinder-NFD.git
 [submodule "blocks/Cinder-NanoVG"]
 	path = blocks/Cinder-NanoVG
 	url = https://github.com/origamidance/Cinder-NanoVG.git
